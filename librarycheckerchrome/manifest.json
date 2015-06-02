@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "LibraryChecker",
+  "description": "gets books from claremont library",
+  "version": "0.1",
+
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["jquery.js","hello.js"]
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "tabs"
+  ]
+  
+}
