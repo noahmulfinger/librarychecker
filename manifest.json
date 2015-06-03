@@ -4,6 +4,9 @@
   "description": "gets books from claremont library",
   "version": "0.1",
 
+
+  "icons": {"128": "Library-Books-128.png" },
+
   "content_scripts": [
     {
       "matches": ["http://*/*", "https://*/*"],
