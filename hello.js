@@ -150,7 +150,7 @@ function getCurrentTabUrl(callback) {
 $(document).ready(function() {
 
   var url = window.location.href;
-  $.post("https://safe-thicket-5126.herokuapp.com/result.php", 'url=hello', function(data) {
+  $.post("https://librarychecker.herokuapp.com/", 'url=hello', function(data) {
       alert(data);
   });
 
